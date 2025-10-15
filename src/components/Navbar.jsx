@@ -11,7 +11,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-white/60 bg-white/80 border-b border-slate-200">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-        <Link to="/" className="text-2xl font-bold tracking-tight">YourBrand</Link>
+        <Link to="/" className="text-2xl font-bold tracking-tight">ExperienceLab</Link>
         <nav className="hidden md:flex items-center gap-2">
           <NavLink to="/" className={linkClass} end>Home</NavLink>
           <NavLink to="/about" className={linkClass}>About</NavLink>
