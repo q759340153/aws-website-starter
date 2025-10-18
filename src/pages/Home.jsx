@@ -38,12 +38,12 @@ export default function Home() {
 
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-rose-50 text-slate-800">
+    <div className="min-h-screen bg-gradient-to-b from-white to-indigo-50 text-slate-800">
       {/* Hero Section */}
       <section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
         <div>
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-            Welcome to Hongyu's <span className="bg-clip-text text-transparent bg-gradient-to-r from-rose-600 to-amber-500">ExperienceLab</span>
+            Welcome to Hongyu's <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">ExperienceLab</span>
           </h1>
           <p className="mt-5 text-lg text-slate-600 max-w-prose">
             ExperienceLab curates unforgettable experiences and fine wine events, blending luxury, art, and community into a modern lifestyle brand.
@@ -107,7 +107,7 @@ export default function Home() {
       <section id="about" className="bg-white border-y border-slate-200">
         <div className="max-w-6xl mx-auto px-6 py-16 grid md:grid-cols-2 gap-10 items-start">
           <div>
-            <h2 className="text-3xl font-bold text-rose-600">About ExperienceLab</h2>
+            <h2 className="text-3xl font-bold text-purple-600">About ExperienceLab</h2>
             <p className="mt-4 text-slate-600 leading-relaxed">
               Founded by Hongyu Cao in New York City, ExperienceLab started as an intimate fine wine club and grew into a vibrant community of enthusiasts, collectors, and entrepreneurs. We craft moments that can’t be found on Google Maps—where every bottle opened tells a story of friendship, creativity, and discovery.
             </p>
@@ -115,18 +115,18 @@ export default function Home() {
               Beyond events, we manage curated wine investments, optimize asset returns, and design data-driven experiences that merge taste with technology.
             </p>
           </div>
-          <div className="bg-rose-50 rounded-2xl shadow p-6 border border-slate-200">
-            <h3 className="font-semibold text-lg text-rose-700">Vision</h3>
+          <div className="bg-purple-50 rounded-2xl shadow p-6 border border-slate-200">
+            <h3 className="font-semibold text-lg text-indigo-700">Vision</h3>
             <p className="mt-2 text-slate-700">To redefine social luxury through curated experiences that connect people, passions, and possibilities.</p>
-            <h3 className="mt-6 font-semibold text-lg text-rose-700">Mission</h3>
+            <h3 className="mt-6 font-semibold text-lg text-indigo-700">Mission</h3>
             <p className="mt-2 text-slate-700">To engineer once-in-a-lifetime gatherings blending fine wine, culture, and genuine human connection.</p>
           </div>
         </div>
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="max-w-3xl mx-auto px-6 py-16">
-        <h2 className="text-3xl font-bold text-rose-600">Get in Touch</h2>
+      {/* <section id="contact" className="max-w-3xl mx-auto px-6 py-16">
+        <h2 className="text-3xl font-bold text-purple-600">Get in Touch</h2>
         <p className="mt-3 text-slate-600 max-w-prose">Want to attend a dinner, invest in fine wines, or collaborate with us? Reach out below and we’ll connect personally.</p>
         <form onSubmit={(e) => e.preventDefault()} className="mt-8 space-y-4">
           <div>
@@ -141,10 +141,30 @@ export default function Home() {
             <label className="block text-sm font-medium">Message</label>
             <textarea rows="4" className="mt-1 w-full px-4 py-3 rounded-2xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-rose-500" required />
           </div>
-          <button className="px-6 py-3 rounded-2xl bg-rose-600 text-white font-semibold hover:opacity-90 shadow">Send Message</button>
+          <button className="px-6 py-3 rounded-2xl bg-purple-600 text-white font-semibold hover:opacity-90 shadow">Send Message</button>
         </form>
-      </section>
+      </section> */}
+      
+      <section id="about" className="bg-white border-y border-slate-200">
+        <div className="max-w-6xl mx-auto px-6 py-16  gap-10 items-start">
+          <div>
+            <h2 className="text-3xl font-bold text-purple-600">About Hongyu</h2>
+            <p className="mt-4 text-slate-600 leading-relaxed">
+              Hongyu Cao is the founder and CEO of ExperienceLab, a New York–based venture that curates fine-wine experiences and manages alternative wine investments.
+            </p>
+            <p className="mt-4 text-slate-600 leading-relaxed">
+              With a background in technology consulting, engineering, and data analytics, Hongyu combines analytical precision with an eye for artistry. Before launching ExperienceLab, he led digital transformation projects for global Fortune 500 clients at DXC Technology and earned dual master’s degrees from Columbia University (Electrical Engineering) and Johns Hopkins University (Engineering Management).
+            </p>
+            <p className="mt-4 text-slate-600 leading-relaxed">
+              What began as a personal passion for rare vintages and hospitality has grown into a community of over 500 clients, blending luxury dining, social connection, and investment strategy. Hongyu’s vision is to redefine what it means to experience value — not just in markets, but in moments.
+            </p>
+            <p className="mt-4 text-slate-600 leading-relaxed">
+              Whether designing a curated wine dinner, structuring a new investment portfolio, or crafting a once-in-a-lifetime experience, Hongyu approaches each endeavor with the same principle: intentionality turns the ordinary into the unforgettable.
+            </p>
+          </div>
 
+        </div>
+      </section>
       
     </div>
   )
